@@ -1,0 +1,14 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>BLACKSCREEN.png</file>
+    <file>ABC.jpg</file>
+    <file>CNN.jpg</file>
+    <file>ESPN.png</file>
+    <file>HULU.png</file>
+    <file>KETV.jpg</file>
+    <file>NBC.png</file>
+    <file>NETFLIX.png</file>
+    <file>NFLNETWORK.jpg</file>
+    <file>YouTube.png</file>
+  </qresource>
+</RCC>
