@@ -52,9 +52,11 @@ class Television(QMainWindow, Ui_MainWindow):
         if not self.__status:
             image = QPixmap("TV_Images/BLACKSCREEN.png")
             self.imgLabel.setPixmap(image)
+            self.Volume_Bar.setVisible(False)
 
         if self.__status:
             self.visual_channel(self.__channel)
+            self.Volume_Bar.setVisible(True)
 
 
 
