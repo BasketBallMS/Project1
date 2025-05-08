@@ -43,6 +43,7 @@ class Television(QMainWindow, Ui_MainWindow):
         self.Channel_9.clicked.connect(lambda: self.visual_channel(9))
         image = QPixmap("TV_Images/BLACKSCREEN.png")
         self.imgLabel.setPixmap(image)
+        self.Volume_Bar.setVisible(False)
 
     def power(self) -> None:
         """
