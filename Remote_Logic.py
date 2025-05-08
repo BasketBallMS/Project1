@@ -76,7 +76,7 @@ class Television(QMainWindow, Ui_MainWindow):
     def visual_channel(self, channel_number):
         """
         Displays the channel onto the label.
-        AI helped me by describing to me best way to display a image onto a label.
+        AI helped me by describing to me best way to display an image onto a label.
         :param channel_number:
         """
         if self.__status:
